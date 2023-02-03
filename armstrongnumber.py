@@ -1,12 +1,13 @@
-number = 153
+print('enter a number')
+number = int(input())
 temp = number
 digitsum = 0
 print("Armstrong number Checking")
 while temp != 0:
     digit = temp % 10
-    digitsum += digit*digit*digit
+    digitsum += pow(digit, 3)
     temp = temp//10
 if digitsum == number:
-    print(f'{number} is a three-digit Armstrong Number')
+    print(f'{number} is a Armstrong Number')
 else:
     print(f'{number} is not an Armstrong Number')
