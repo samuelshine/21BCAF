@@ -1,6 +1,7 @@
 number = 153
 temp = number
 digitsum = 0
+print("Armstrong number Checking")
 while temp != 0:
     digit = temp % 10
     digitsum += digit*digit*digit
