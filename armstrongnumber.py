@@ -3,6 +3,7 @@ number = int(input())
 temp = number
 digitsum = 0
 print("Armstrong number Checking")
+a=2
 while temp != 0:
     digit = temp % 10
     digitsum += pow(digit, 3)
