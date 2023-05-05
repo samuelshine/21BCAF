@@ -8,6 +8,6 @@ while temp != 0:
     digitsum += pow(digit, 3)
     temp = temp//10
 if digitsum == number:
-    print(f'{number} is a Armstrong Number')
+    print(f'{number} is a ARMSTRONG Number')
 else:
-    print(f'{number} is not an Armstrong Number')
+    print(f'{number} is not an ARMSTRONG Number')
