@@ -2,7 +2,7 @@ print('enter a number')
 number = int(input())
 temp = number
 digitsum = 0
-sam="nice"
+samuel="nice"
 print("Armstrong number Checking")
 while temp != 0:
     digit = temp % 10
